@@ -1,0 +1,20 @@
+{
+  "name": "token-test",
+  "version": "1.0.0",
+  "description": "token test",
+  "main": "toBase.js",
+  "scripts": {
+    "start": "node toJWT2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MIM",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.1",
+    "pem-jwk": "^2.0.0"
+  }
+}
